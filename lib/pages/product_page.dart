@@ -98,7 +98,12 @@ class _ProductPageState extends State<ProductPage> {
                   height: 20.4,
                 ),
                 
-                AddButton(item: productData),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    AddButton(item: productData),
+                  ],
+                ),
                 Container(
                   child: Column(
                     children: <Widget>[

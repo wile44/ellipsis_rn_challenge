@@ -3,8 +3,7 @@ import 'package:ellipsis_rn_challenge/models/product_model/product_model.dart';
 import 'package:equatable/equatable.dart';
 import '../../repository/shopping_repository.dart';
 import '/cart/cart.dart';
-import '/catalog/catalog.dart';
-import 'package:meta/meta.dart';
+
 
 part 'cart_event.dart';
 part 'cart_state.dart';

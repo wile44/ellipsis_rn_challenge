@@ -84,7 +84,7 @@ class CatalogAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverAppBar(
-      title: const Text('Catalog'),
+      title: const Text('Products'),
       floating: true,
       actions: [
         Padding(
